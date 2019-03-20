@@ -1,12 +1,8 @@
 package ch01;
 
 public class Print {
-	public static void main(String[] args) {
-		// 실행 당축키 => ctr1 + f11
-		/*
-		 * 
-		 */
-		System.out.println("큰따옴표=> \"");
+	public static void pirint() {
+System.out.println("큰따옴표=> \"");
 		
 		System.out.println("" + 1 + 2 + 3);
 		
@@ -42,4 +38,12 @@ public class Print {
 		// 여러 기호의 조합
 		System.out.println("A의 점수 합은 : " + (1 + 2) + ", B의 점수 합은 : " + (3 + 4));
 	}
+
+	public static void main(String[] args) {
+		// 실행 당축키 => ctr1 + f11
+		/*
+		 * 
+		 */
+	}
+	
 }
